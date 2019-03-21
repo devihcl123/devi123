@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection="bashacollection")
+@Document(collection="devicollection")
 public class ReciepeEntity {
     @Id
 	private Integer id;
